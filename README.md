@@ -23,7 +23,7 @@ The overview of the ei-SRC, the proposed e-commerce interaction-based semantic r
 
 ## Content in it:
 
-- 1\. 10 pairs annotated testing data cases (random sampled from 100k query-item pairs, and text descriptions of items are the given titles).
+- 1\. 20 pairs annotated [testing data cases](https://github.com/benchen4395/ei-src4search/blob/main/query_title_testdata_cases/20_query_title_pairs.csv) (random sampled from 100k query-item pairs, and text descriptions of items are the given titles).
 
 - 2\. Key code implementations of the following parts, and corresponding description of corresponding config.
     - **D**ynamic-length **R**epresentation **S**cheme [(__DRS__)](https://github.com/benchen4395/ei-src4search/blob/main/model_implement_details/DRS.py)
