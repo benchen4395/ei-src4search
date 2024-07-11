@@ -1,5 +1,8 @@
 # ei-src4search
-Corresponding codes for paper `Robust Interaction-based Relevance Modeling for Online E-Commerce Search`
+Corresponding codes for paper "[Robust Interaction-based Relevance Modeling for Online E-Commerce Search and LLM-based Retrieval](https://arxiv.org/abs/2406.02135)".  
+- Accepted in ECML-PKDD2024 as **Outstanding Paper**.
+
+The simple data arrangement of similar products retrieval platform proposed in the paper:
 
 ## abstract 
 `Semantic relevance calculation` plays a vital role in e-commerce search engine, as it aims to select the most suitable items to match customers' intents. Neglecting this aspect can have detrimental effects on user experience and engagement. In this paper we present a robust interaction-based modeling paradigm. It encompasses:
@@ -33,9 +36,6 @@ The overview of the ei-SRC, the proposed e-commerce interaction-based semantic r
     - number of layers, self-attention heads, and activation function
     - dropout rate of R-Drop
     - loss weighting parameters of the loss function
-
-#### As a side note:
-All data, code implements may be released to public through [official repository](https://github.com/alibaba), as well as more testing results of offline experiments.
 
 ## Offline Testings
 We take AUC, Micro / Macro F1, Spearmanr and Pearsonr as the evaluation metrics, and list all results of base ($X_{base}$) and mini ($X_{mini}$) version for representation / interaction based models respectively.
